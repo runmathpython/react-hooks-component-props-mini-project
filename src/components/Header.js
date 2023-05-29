@@ -4,7 +4,7 @@ function Header({name}) {
   return (
     <header>
         <h1>
-           {name}
+           <a href="https://overreacted.io/">{name}</a>
         </h1>
     </header>
   )

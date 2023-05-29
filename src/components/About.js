@@ -5,6 +5,8 @@ function About({image = "https://via.placeholder.com/215", about}){
       <aside>
         <img src={image} alt="blog logo" />
         <p>
+          Personal blog by <a href="https://twitter.com/dan_abramov">Dan Abramov</a>.
+          <br />
           {about}
         </p>
       </aside>
